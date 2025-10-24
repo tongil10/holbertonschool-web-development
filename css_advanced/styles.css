@@ -290,3 +290,61 @@ button.register-button {
   font-size: 14px;
   font-weight: 600;
 }
+
+/* Membership section styles - Fourth Section */
+.fourth-section {
+  background: #071629;
+  width: 1440px;
+  padding: 70px 0;
+  text-align: center;
+}
+
+.fourth-section h1 {
+  font-size: 32px;
+  margin-bottom: 50px;
+}
+
+.fourth-section h1 span {
+  color: #c271ff;
+}
+
+.membership-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 80px;
+  max-width: 1200px;
+  margin: 0 auto 70px;
+  padding: 0 20px;
+}
+
+.membership-item {
+  color: white;
+}
+
+.membership-item img {
+  width: 45px;
+  margin-bottom: 20px;
+}
+
+.membership-item h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.membership-item p {
+  font-size: 14px;
+  line-height: 26px;
+  opacity: 0.8;
+}
+
+.membership-section .register-btn {
+  background: #c271ff;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 30px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+}
