@@ -147,3 +147,48 @@ button.register-button {
   font-size: 16px;
   line-height: 1.5;
 }
+
+/* Quote section styles - Second Section Styles */
+.second-section {
+    width: 1440px;
+  background: #c271ff;
+  padding: 100px 0;
+}
+
+.quote-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 0 20px;
+}
+
+.quote-container img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.quote-content {
+  flex: 1;
+}
+
+.quote-text {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.author-name {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.author-title {
+  font-style: italic;
+  font-size: 22px;
+  opacity: 0.9;
+}
